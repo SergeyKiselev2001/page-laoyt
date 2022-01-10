@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./style/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+
+            <nav>
+                <a href="#">Woman</a>
+                <a href="#">Man</a>
+                <a href="#">New</a>
+            </nav>
+            
+            <h1 class="logo">
+                N&#238;mes
+            </h1>
+
+            <div class="header__search-basket">
+                <a href="#"><img src="./assets/search.svg" alt="search"></a>
+                <a class="basket" href="#"><img src="./assets/basket.svg" alt="basket"></a>
+            </div>
+
+            
+        </header>
+        
+        
+        
+        <div class="product">
+            <div class="carousel-wrapper">
+
+                <div class="carousel__arrow">
+                    <div class="arrow" data-direction="left"></div>
+                </div>
+
+                <div class="carousel">
+                        <div class="carousel__photo big">
+                            <img src="./assets/product-image-1.png" alt="carousel photo">
+                        </div>
+                        <div class="carousel__photo">
+                            <img src="./assets/product-image-2.png" alt="carousel photo">
+                        </div> 
+                        <div class="carousel__photo">
+                            <img src="./assets/product-image-3.png" alt="carousel photo">
+                        </div> 
+                        <div class="carousel__photo">
+                            <img src="./assets/product-image-4.png" alt="carousel photo">
+                        </div> 
+                        <div class="carousel__photo">
+                            <img src="./assets/product-image-5.png" alt="carousel photo">
+                        </div> 
+                </div>
+
+                <div class="carousel__arrow">
+                    <div class="arrow" data-direction="right"></div>
+                </div>
+            </div>  
+            
+                <div class="description">
+
+                    <h2>Overalls</h2>
+
+                    <p>Overalls in washed organic cotton denim. Collar, button fly, and adjustable belt at waist. Chest pockets with flap. Long, gently flared sleeves and straight legs with front pockets and back pockets.</p>
+
+                    <form action="#" method="post">
+                        <h3>Color</h3>
+                        <input class="pick-color pick-color_lb" type="radio" name="color" value="lightblue" checked>
+                        <input class="pick-color pick-color_b" type="radio" name="color" value="blue">
+                        <input class="pick-color pick-color_lg" type="radio" name="color" value="lightgray">
+
+                        <h3 class="size-h3">Size</h3>
+
+                        <input class="pick-size pick-size_xs" type="radio" name="size" value="XS">
+                        <input class="pick-size pick-size_s" type="radio" name="size" value="S" checked>
+                        <input class="pick-size pick-size_m" type="radio" name="size" value="M">
+                        <input class="pick-size pick-size_l" type="radio" name="size" value="L">
+                        <input class="pick-size pick-size_xl" type="radio" name="size" value="XL">
+                    
+
+
+                        <h3 class="price">$ 160</h3>
+
+                        <input type="submit" value="Add to cart">
+                    </form>
+                </div>
+        </div>
+        
+
+        
+       <div class="additional-offer">
+            <div class="additional-offer__header">
+                <h2>You may also like</h2>
+                <a href="#">View all</a>
+            </div>
+
+            <div class="additional-offer__goods">
+                <div class="additional-offer__product">
+                    <img src="./assets/similar-image-1.png" alt="product">
+                    <h3 class="product__name">Overalls</h3>
+                    <h3 class="product__price">$ 140</h3>
+                </div>
+
+                <div class="additional-offer__product">
+                    <img src="./assets/similar-image-2.png" alt="product">
+                    <h3 class="product__name">Overalls</h3>
+                    <h3 class="product__price">$ 110</h3>
+                </div>
+
+                <div class="additional-offer__product">
+                    <img src="./assets/similar-image-3.png" alt="product">
+                    <h3 class="product__name">Jacket</h3>
+                    <h3 class="product__price">$ 70</h3>
+                </div>
+
+                <div class="additional-offer__product">
+                    <img src="./assets/similar-image-4.png" alt="product">
+                    <h3 class="product__name">Jacket</h3>
+                    <h3 class="product__price">$ 60</h3>
+                </div>
+            </div>
+
+       </div>
+
+        <footer>
+
+            <div class="footer__logo">
+                N&#238;mes
+            </div>
+
+            <nav class="footer__links">
+                <a href="#">Shop</a>
+                <a href="#">Delivery</a>
+                <a href="#">Service</a>
+                <a href="#">Sitemap</a>
+                <a href="#">Contacts</a>
+            </nav>
+
+            <div class="footer__social">
+                <a href="#"><img class="fb" alt="fb" src="./assets/fb.svg"></a>
+                <a href="#"><img class="insta" alt="insta" src="./assets/insta.svg"></a>
+                <a href="#"><img class="pinterest" alt="pinterest" src="./assets/pinterest.svg"></a>
+                <a href="#"><img class="twitter" alt="twitter" src="./assets/twitter.svg"></a>
+            </div>
+            
+        </footer>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e5942a15e5.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
